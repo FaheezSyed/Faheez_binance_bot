@@ -1,0 +1,128 @@
+2025-09-24 10:46:02,427 | INFO | Initializing Binance Client (testnet=True)
+2025-09-24 10:46:02,914 | INFO | Client initialized
+2025-09-24 10:46:03,124 | DEBUG | API Call -> futures_symbol_ticker | params={'symbol': 'BTCUSDT'}
+2025-09-24 10:46:03,124 | DEBUG | API Response <- futures_symbol_ticker | len=66
+2025-09-24 10:46:03,465 | DEBUG | API Call -> futures_create_order(MARKET) | params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001, 'reduceOnly': False}
+2025-09-24 10:46:03,466 | DEBUG | API Response <- futures_create_order(MARKET) | len=573
+2025-09-24 10:46:03,825 | DEBUG | API Call -> futures_create_order(MARKET) | params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'MARKET', 'quantity': 0.001, 'reduceOnly': True}
+2025-09-24 10:46:03,827 | DEBUG | API Response <- futures_create_order(MARKET) | len=573
+2025-09-24 10:50:35,802 | INFO | Initializing Binance Client (testnet=True)
+2025-09-24 10:50:36,312 | INFO | Client initialized
+2025-09-24 10:50:36,527 | DEBUG | API Call -> futures_symbol_ticker | params={'symbol': 'ETH'}
+2025-09-24 10:50:36,527 | ERROR | API Error <- futures_symbol_ticker | BinanceAPIException(<Response [400]>, 400, '{"code":-1121,"msg":"Invalid symbol."}')
+2025-09-24 10:50:36,855 | DEBUG | API Call -> futures_create_order(MARKET) | params={'symbol': 'ETH', 'side': 'BUY', 'type': 'MARKET', 'quantity': Decimal('0.0001'), 'reduceOnly': False}
+2025-09-24 10:50:36,866 | ERROR | API Error <- futures_create_order(MARKET) | BinanceAPIException(<Response [400]>, 400, '{"code":-1121,"msg":"Invalid symbol."}')
+2025-09-24 10:50:37,191 | DEBUG | API Call -> futures_create_order(MARKET) | params={'symbol': 'ETH', 'side': 'SELL', 'type': 'MARKET', 'quantity': Decimal('0.0001'), 'reduceOnly': True}
+2025-09-24 10:50:37,191 | ERROR | API Error <- futures_create_order(MARKET) | BinanceAPIException(<Response [400]>, 400, '{"code":-1121,"msg":"Invalid symbol."}')
+2025-09-24 10:51:59,375 | INFO | Initializing Binance Client (testnet=True)
+2025-09-24 10:51:59,878 | INFO | Client initialized
+2025-09-24 10:52:00,096 | DEBUG | API Call -> futures_symbol_ticker | params={'symbol': 'BNB'}
+2025-09-24 10:52:00,096 | ERROR | API Error <- futures_symbol_ticker | BinanceAPIException(<Response [400]>, 400, '{"code":-1121,"msg":"Invalid symbol."}')
+2025-09-24 10:52:00,421 | DEBUG | API Call -> futures_create_order(MARKET) | params={'symbol': 'BNB', 'side': 'BUY', 'type': 'MARKET', 'quantity': Decimal('0.0001'), 'reduceOnly': False}
+2025-09-24 10:52:00,421 | ERROR | API Error <- futures_create_order(MARKET) | BinanceAPIException(<Response [400]>, 400, '{"code":-1121,"msg":"Invalid symbol."}')
+2025-09-24 10:52:00,563 | DEBUG | API Call -> futures_create_order(MARKET) | params={'symbol': 'BNB', 'side': 'SELL', 'type': 'MARKET', 'quantity': Decimal('0.0001'), 'reduceOnly': True}
+2025-09-24 10:52:00,563 | ERROR | API Error <- futures_create_order(MARKET) | BinanceAPIException(<Response [400]>, 400, '{"code":-1121,"msg":"Invalid symbol."}')
+2025-09-24 10:52:52,820 | INFO | Initializing Binance Client (testnet=True)
+2025-09-24 10:52:53,318 | INFO | Client initialized
+2025-09-24 10:52:53,725 | DEBUG | API Call -> futures_symbol_ticker | params={'symbol': 'BTCUSDT'}
+2025-09-24 10:52:53,725 | DEBUG | API Response <- futures_symbol_ticker | len=66
+2025-09-24 10:52:54,051 | DEBUG | API Call -> futures_create_order(MARKET) | params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': Decimal('0.0001'), 'reduceOnly': False}
+2025-09-24 10:52:54,051 | ERROR | API Error <- futures_create_order(MARKET) | BinanceAPIException(<Response [400]>, 400, '{"code":-1111,"msg":"Precision is over the maximum defined for this asset."}')
+2025-09-24 10:52:54,385 | DEBUG | API Call -> futures_create_order(MARKET) | params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'MARKET', 'quantity': Decimal('0.0001'), 'reduceOnly': True}
+2025-09-24 10:52:54,385 | ERROR | API Error <- futures_create_order(MARKET) | BinanceAPIException(<Response [400]>, 400, '{"code":-1111,"msg":"Precision is over the maximum defined for this asset."}')
+2025-09-24 10:54:36,163 | INFO | Initializing Binance Client (testnet=True)
+2025-09-24 10:54:36,707 | INFO | Client initialized
+2025-09-24 10:54:37,130 | DEBUG | API Call -> futures_symbol_ticker | params={'symbol': 'BTCUSDT'}
+2025-09-24 10:54:37,130 | DEBUG | API Response <- futures_symbol_ticker | len=66
+2025-09-24 10:54:37,448 | DEBUG | API Call -> futures_create_order(MARKET) | params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': Decimal('0.0001'), 'reduceOnly': False}
+2025-09-24 10:54:37,448 | ERROR | API Error <- futures_create_order(MARKET) | BinanceAPIException(<Response [400]>, 400, '{"code":-1111,"msg":"Precision is over the maximum defined for this asset."}')
+2025-09-24 10:54:37,790 | DEBUG | API Call -> futures_create_order(MARKET) | params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'MARKET', 'quantity': Decimal('0.0001'), 'reduceOnly': True}
+2025-09-24 10:54:37,790 | ERROR | API Error <- futures_create_order(MARKET) | BinanceAPIException(<Response [400]>, 400, '{"code":-1111,"msg":"Precision is over the maximum defined for this asset."}')
+2025-09-24 10:55:35,009 | INFO | Initializing Binance Client (testnet=True)
+2025-09-24 10:55:35,476 | INFO | Client initialized
+2025-09-24 10:55:35,712 | DEBUG | API Call -> futures_symbol_ticker | params={'symbol': 'BTCUSDT'}
+2025-09-24 10:55:35,712 | DEBUG | API Response <- futures_symbol_ticker | len=66
+2025-09-24 10:55:36,042 | DEBUG | API Call -> futures_create_order(MARKET) | params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': Decimal('0.001'), 'reduceOnly': False}
+2025-09-24 10:55:36,042 | DEBUG | API Response <- futures_create_order(MARKET) | len=573
+2025-09-24 10:55:36,373 | DEBUG | API Call -> futures_create_order(MARKET) | params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'MARKET', 'quantity': Decimal('0.001'), 'reduceOnly': True}
+2025-09-24 10:55:36,373 | DEBUG | API Response <- futures_create_order(MARKET) | len=573
+2025-09-24 11:29:02,898 | INFO | Initializing Binance Client (testnet=True)
+2025-09-24 11:29:03,395 | INFO | Client initialized
+2025-09-24 11:29:03,619 | DEBUG | API Call -> futures_symbol_ticker | params={'symbol': 'BTCUSDT'}
+2025-09-24 11:29:03,619 | DEBUG | API Response <- futures_symbol_ticker | len=66
+2025-09-24 11:29:03,952 | DEBUG | API Call -> futures_create_order(MARKET) | params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': Decimal('0.001'), 'reduceOnly': False}
+2025-09-24 11:29:03,952 | DEBUG | API Response <- futures_create_order(MARKET) | len=573
+2025-09-24 11:29:04,271 | DEBUG | API Call -> futures_create_order(MARKET) | params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'MARKET', 'quantity': Decimal('0.001'), 'reduceOnly': True}
+2025-09-24 11:29:04,271 | DEBUG | API Response <- futures_create_order(MARKET) | len=573
+2025-09-24 11:35:15,530 | INFO | Initializing Binance Client (testnet=True)
+2025-09-24 11:35:16,034 | INFO | Client initialized
+2025-09-24 11:35:28,391 | INFO | Initializing Binance Client (testnet=True)
+2025-09-24 11:35:28,873 | INFO | Client initialized
+2025-09-24 11:35:29,271 | DEBUG | API Call -> futures_symbol_ticker | params={'symbol': 'BTCUSDT'}
+2025-09-24 11:35:29,271 | DEBUG | API Response <- futures_symbol_ticker | len=66
+2025-09-24 11:35:29,606 | DEBUG | API Call -> futures_create_order(LIMIT) | params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'timeInForce': 'GTC', 'quantity': Decimal('0.1'), 'price': '113721.76', 'reduceOnly': False}
+2025-09-24 11:35:29,606 | ERROR | API Error <- futures_create_order(LIMIT) | BinanceAPIException(<Response [400]>, 400, '{"code":-4014,"msg":"Price not increased by tick size."}')
+2025-09-24 11:35:31,929 | DEBUG | API Call -> futures_get_open_orders | params={'symbol': 'BTCUSDT'}
+2025-09-24 11:35:31,929 | DEBUG | API Response <- futures_get_open_orders | len=2
+2025-09-24 11:35:38,287 | INFO | Initializing Binance Client (testnet=True)
+2025-09-24 11:35:38,806 | INFO | Client initialized
+2025-09-24 11:35:39,016 | DEBUG | API Call -> futures_symbol_ticker | params={'symbol': 'BTCUSDT'}
+2025-09-24 11:35:39,016 | DEBUG | API Response <- futures_symbol_ticker | len=66
+2025-09-24 11:35:39,351 | DEBUG | API Call -> futures_create_order(LIMIT) | params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'timeInForce': 'GTC', 'quantity': Decimal('0.001'), 'price': '113723.07', 'reduceOnly': False}
+2025-09-24 11:35:39,352 | ERROR | API Error <- futures_create_order(LIMIT) | BinanceAPIException(<Response [400]>, 400, '{"code":-4014,"msg":"Price not increased by tick size."}')
+2025-09-24 11:35:41,688 | DEBUG | API Call -> futures_get_open_orders | params={'symbol': 'BTCUSDT'}
+2025-09-24 11:35:41,690 | DEBUG | API Response <- futures_get_open_orders | len=2
+2025-09-24 11:35:51,955 | INFO | Initializing Binance Client (testnet=True)
+2025-09-24 11:35:52,219 | INFO | Client initialized
+2025-09-24 11:35:52,419 | DEBUG | API Call -> futures_symbol_ticker | params={'symbol': 'BTCUSDT'}
+2025-09-24 11:35:52,419 | DEBUG | API Response <- futures_symbol_ticker | len=66
+2025-09-24 11:35:52,743 | DEBUG | API Call -> futures_create_order(LIMIT) | params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'timeInForce': 'GTC', 'quantity': Decimal('0.01'), 'price': '113723.88', 'reduceOnly': False}
+2025-09-24 11:35:52,743 | ERROR | API Error <- futures_create_order(LIMIT) | BinanceAPIException(<Response [400]>, 400, '{"code":-4014,"msg":"Price not increased by tick size."}')
+2025-09-24 11:35:55,059 | DEBUG | API Call -> futures_get_open_orders | params={'symbol': 'BTCUSDT'}
+2025-09-24 11:35:55,059 | DEBUG | API Response <- futures_get_open_orders | len=2
+2025-09-24 11:36:04,058 | INFO | Initializing Binance Client (testnet=True)
+2025-09-24 11:36:04,346 | INFO | Client initialized
+2025-09-24 11:36:04,568 | DEBUG | API Call -> futures_symbol_ticker | params={'symbol': 'BTCUSDT'}
+2025-09-24 11:36:04,568 | DEBUG | API Response <- futures_symbol_ticker | len=66
+2025-09-24 11:36:04,908 | DEBUG | API Call -> futures_create_order(MARKET) | params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': Decimal('0.01'), 'reduceOnly': False}
+2025-09-24 11:36:04,908 | DEBUG | API Response <- futures_create_order(MARKET) | len=573
+2025-09-24 11:36:05,233 | DEBUG | API Call -> futures_create_order(MARKET) | params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'MARKET', 'quantity': Decimal('0.01'), 'reduceOnly': True}
+2025-09-24 11:36:05,233 | DEBUG | API Response <- futures_create_order(MARKET) | len=573
+2025-09-24 11:36:30,711 | INFO | Initializing Binance Client (testnet=True)
+2025-09-24 11:36:31,000 | INFO | Client initialized
+2025-09-24 11:36:31,190 | DEBUG | API Call -> futures_symbol_ticker | params={'symbol': 'BTCUSDT'}
+2025-09-24 11:36:31,190 | DEBUG | API Response <- futures_symbol_ticker | len=66
+2025-09-24 11:36:31,517 | DEBUG | API Call -> futures_create_order(LIMIT) | params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'timeInForce': 'GTC', 'quantity': Decimal('0.01'), 'price': '113748.22', 'reduceOnly': False}
+2025-09-24 11:36:31,517 | ERROR | API Error <- futures_create_order(LIMIT) | BinanceAPIException(<Response [400]>, 400, '{"code":-4014,"msg":"Price not increased by tick size."}')
+2025-09-24 11:36:33,851 | DEBUG | API Call -> futures_get_open_orders | params={'symbol': 'BTCUSDT'}
+2025-09-24 11:36:33,851 | DEBUG | API Response <- futures_get_open_orders | len=2
+2025-09-24 11:38:49,056 | INFO | Initializing Binance Client (testnet=True)
+2025-09-24 11:38:49,565 | INFO | Client initialized
+2025-09-24 11:38:49,773 | DEBUG | API Call -> futures_create_order(LIMIT) | params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'timeInForce': 'GTC', 'quantity': Decimal('0.001'), 'price': '30500', 'reduceOnly': False}
+2025-09-24 11:38:49,773 | ERROR | API Error <- futures_create_order(LIMIT) | BinanceAPIException(<Response [400]>, 400, '{"code":-4024,"msg":"Limit price can\'t be lower than 107058.26."}')
+2025-09-24 11:38:52,092 | DEBUG | API Call -> futures_get_open_orders | params={'symbol': 'BTCUSDT'}
+2025-09-24 11:38:52,092 | DEBUG | API Response <- futures_get_open_orders | len=2
+2025-09-24 11:39:19,425 | INFO | Initializing Binance Client (testnet=True)
+2025-09-24 11:39:19,946 | INFO | Client initialized
+2025-09-24 11:39:20,177 | DEBUG | API Call -> futures_create_order(LIMIT) | params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'timeInForce': 'GTC', 'quantity': Decimal('0.001'), 'price': '107060', 'reduceOnly': False}
+2025-09-24 11:39:20,177 | DEBUG | API Response <- futures_create_order(LIMIT) | len=577
+2025-09-24 11:39:22,315 | DEBUG | API Call -> futures_get_open_orders | params={'symbol': 'BTCUSDT'}
+2025-09-24 11:39:22,315 | DEBUG | API Response <- futures_get_open_orders | len=2
+2025-09-24 11:45:52,863 | INFO | Initializing Binance Client (testnet=True)
+2025-09-24 11:45:53,383 | INFO | Client initialized
+2025-09-24 11:45:53,608 | DEBUG | API Call -> futures_symbol_ticker | params={'symbol': 'BTCUSDT'}
+2025-09-24 11:45:53 | DEBUG | API Call -> futures_symbol_ticker | params={'symbol': 'BTCUSDT'}
+2025-09-24 11:45:53,608 | DEBUG | API Response <- futures_symbol_ticker | len=66
+2025-09-24 11:45:53 | DEBUG | API Response <- futures_symbol_ticker | len=66
+2025-09-24 11:45:53 | INFO | Current market price of BTCUSDT: 112679.6
+2025-09-24 11:45:53 | INFO | Placing limit SELL for 0.001 BTCUSDT at 107060
+2025-09-24 11:45:53,942 | DEBUG | API Call -> futures_create_order(LIMIT) | params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'timeInForce': 'GTC', 'quantity': Decimal('0.001'), 'price': '107060', 'reduceOnly': False}
+2025-09-24 11:45:53 | DEBUG | API Call -> futures_create_order(LIMIT) | params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'timeInForce': 'GTC', 'quantity': Decimal('0.001'), 'price': '107060', 'reduceOnly': False}
+2025-09-24 11:45:53,942 | DEBUG | API Response <- futures_create_order(LIMIT) | len=577
+2025-09-24 11:45:53 | DEBUG | API Response <- futures_create_order(LIMIT) | len=577
+2025-09-24 11:45:53 | INFO | Limit order placed successfully: {'success': True, 'data': {'orderId': 5677905335, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ88315f093283b65fb56f5c', 'price': '107060.00', 'avgPrice': '0.00', 'origQty': '0.001', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1758694552964}}
+2025-09-24 11:45:56,259 | DEBUG | API Call -> futures_get_open_orders | params={'symbol': 'BTCUSDT'}
+2025-09-24 11:45:56 | DEBUG | API Call -> futures_get_open_orders | params={'symbol': 'BTCUSDT'}
+2025-09-24 11:45:56,259 | DEBUG | API Response <- futures_get_open_orders | len=2
+2025-09-24 11:45:56 | DEBUG | API Response <- futures_get_open_orders | len=2
+2025-09-24 11:45:56 | INFO | Open orders for BTCUSDT: {'success': True, 'data': []}
