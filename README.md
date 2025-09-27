@@ -16,7 +16,7 @@ A Python-based automated trading bot for Binance Futures, supporting **market or
 
 ## Prerequisites
 
-* Python 3.9+
+* Python 3.10+
 * Binance Futures account
 * API Key & Secret from Binance
 
